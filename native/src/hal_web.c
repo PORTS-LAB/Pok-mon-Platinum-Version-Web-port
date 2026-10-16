@@ -8,9 +8,11 @@
  */
 #include <stdlib.h>
 #include <string.h>
+#include <stdio.h>
 
 #ifdef __EMSCRIPTEN__
 #include <emscripten.h>
+#include <emscripten/html5.h>
 #include <GLES2/gl2.h>
 #endif
 

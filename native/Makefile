@@ -17,7 +17,7 @@ assets:
 
 wasm:
 	@test -n "$(EMSDK)" || (echo "set EMSDK=/path/to/emsdk (see https://emscripten.org/docs/getting_started/downloads.html)"; exit 1)
-	. "$(EMSDK)/emsdk_env.sh" && emcc -std=c11 -O2 -Inative/include \
+	. "$(EMSDK)/emsdk_env.sh" && emcc -std=gnu11 -O2 -Inative/include \
 	  native/src/main.c native/src/core_stub.c native/src/hal_web.c \
 	  -s USE_WEBGL2=1 -s WASM=1 -s ALLOW_MEMORY_GROWTH=1 \
 	  -s FORCE_FILESYSTEM=1 -lidbfs.js \

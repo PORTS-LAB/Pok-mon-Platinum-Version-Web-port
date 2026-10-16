@@ -1,0 +1,6 @@
+*.nds
+!rom/manifest.json
+rom/*.nds
+plat.zip
+rom.nds
+.DS_Store

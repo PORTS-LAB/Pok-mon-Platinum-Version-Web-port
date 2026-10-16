@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "game": "platinum-usa",
+  "totalBytes": 134217728,
+  "sha256": "ede62292aa7f7014ff27d42097e769753380531739889c29b968b67b80f80678",
+  "chunkSize": 8388608,
+  "chunks": [
+    "plat.part00",
+    "plat.part01",
+    "plat.part02",
+    "plat.part03",
+    "plat.part04",
+    "plat.part05",
+    "plat.part06",
+    "plat.part07",
+    "plat.part08",
+    "plat.part09",
+    "plat.part10",
+    "plat.part11",
+    "plat.part12",
+    "plat.part13",
+    "plat.part14",
+    "plat.part15"
+  ]
+}

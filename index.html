@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>Pokémon Platinum — Web Port</title>
+<meta name="description" content="Pokémon Platinum playable in the browser. Click Start, no upload needed.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">Pokémon Platinum <span class="tag">Web Port</span></div>
+  <div class="top-actions">
+    <button id="btn-fullscreen" class="ghost" title="Fullscreen">⛶ Fullscreen</button>
+    <button id="btn-mic" class="ghost" title="Enable real microphone (optional)">🎤 Mic</button>
+    <button id="btn-controls" class="ghost" title="Show controls">🎮 Controls</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- LANDING -->
+  <section id="screen-landing" class="card">
+    <h1>Pokémon Platinum <span class="sub">— click Start, no upload needed</span></h1>
+    <p class="muted">Bundled ROM loads from this site's own <code>./rom/</code> chunks. First run downloads ~128&nbsp;MB once, then it boots instantly from device cache. You must own the cartridge to play legally.</p>
+    <div class="row">
+      <button id="btn-start" class="primary">▶ Start Game</button>
+      <button id="btn-continue" class="ghost" hidden>Continue (cached)</button>
+    </div>
+    <div id="landing-status" class="status">Checking cache…</div>
+    <details id="controls-help">
+      <summary>Controls &amp; saves</summary>
+      <table class="keys">
+        <tr><td>D-pad</td><td>Arrow keys / WASD</td></tr>
+        <tr><td>A / B</td><td>X / Z</td></tr>
+        <tr><td>X / Y</td><td>S / A</td></tr>
+        <tr><td>L / R</td><td>Q / W</td></tr>
+        <tr><td>Start / Select</td><td>Enter / Shift</td></tr>
+        <tr><td>Mic blow</td><td>Hold <b>W</b> (or 🎤 button)</td></tr>
+        <tr><td>Stylus</td><td>Click / touch the bottom screen</td></tr>
+      </table>
+      <p class="muted">Saves persist automatically in the browser (in-game save → auto-stored). If no sound, click the game once. Gamepad supported.</p>
+    </details>
+    <details>
+      <summary>Advanced / fallback</summary>
+      <p class="muted">If chunk hosting is broken you can still boot from a local copy:</p>
+      <input type="file" id="fallback-rom" accept=".nds,.dsv,.sav,.zip">
+      <p class="muted">Pick your <code>.nds</code> here; it boots the same way and gets cached.</p>
+    </details>
+  </section>
+
+  <!-- LOADER -->
+  <section id="screen-loader" class="card" hidden>
+    <h2 id="loader-phase">Downloading…</h2>
+    <div class="bar"><div id="loader-fill"></div></div>
+    <div id="loader-text" class="status">0%</div>
+    <div class="row">
+      <button id="btn-cancel" class="ghost">Cancel</button>
+      <button id="btn-resume" class="ghost" hidden>Resume</button>
+    </div>
+  </section>
+
+  <!-- GAME -->
+  <section id="screen-game" class="card game" hidden>
+    <div id="player-wrap">
+      <desmond-player id="player"></desmond-player>
+    </div>
+    <div id="toast" class="status" role="status"></div>
+
+    <div id="touch" class="touch" hidden>
+      <div class="touch-row shoulders">
+        <button data-key="81" data-name="l">L</button>
+        <button id="btn-blow" data-key="87" data-name="r-mic">🎤 (hold)</button>
+        <button data-key="87" data-name="r">R</button>
+      </div>
+      <div class="touch-grid">
+        <div class="dpad">
+          <button data-key="38" data-name="up">▲</button>
+          <div class="dpad-mid">
+            <button data-key="37" data-name="left">◀</button>
+            <button data-key="40" data-name="down">▼</button>
+            <button data-key="39" data-name="right">▶</button>
+          </div>
+        </div>
+        <div class="abxy">
+          <button data-key="83" data-name="x">X</button>
+          <div class="abxy-mid">
+            <button data-key="65" data-name="y">Y</button>
+            <button data-key="88" data-name="a">A</button>
+          </div>
+          <button data-key="90" data-name="b">B</button>
+        </div>
+      </div>
+      <div class="touch-row small">
+        <button data-key="16" data-name="select">SELECT</button>
+        <button data-key="13" data-name="start">START</button>
+      </div>
+    </div>
+  </section>
+
+  <div id="error-modal" class="modal" hidden>
+    <div class="modal-box">
+      <h3>Something failed</h3>
+      <p id="error-human"></p>
+      <details><summary>Technical detail</summary><pre id="error-tech"></pre></details>
+      <div class="row">
+        <button id="btn-retry" class="primary">Retry</button>
+        <button id="btn-dismiss" class="ghost">Dismiss</button>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="foot muted">Static build · DeSmuME-wasm (Desmond) · no BIOS needed · saves stay in your browser</footer>
+
+<script src="./vendor/desmond.min.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>

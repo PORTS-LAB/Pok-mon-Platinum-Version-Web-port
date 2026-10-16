@@ -43,4 +43,10 @@ Arrows/WASD move · X=A · Z=B · S=X · A=Y · Q=L · W=R · Enter=Start · Shi
 - `vendor/desmond.min.js` + `vendor/desmond.wasm` — emulator (self-hosted, side-by-side required)
 - `rom/manifest.json` + `rom/plat.part*` — game data (built by `tools/split-rom.py`, never commit the raw `.nds`)
 - `vercel.json`, `.nojekyll`, `.gitignore`
+
+## True native port (in progress)
+
+`native/` is the start of a real WASM port (decomp core + HAL instead of
+emulation). Scaffold + verified tooling only — not playable yet. See
+`native/README.md` for the roadmap, then `make -C native check`.
 # Pok-mon-Platinum-Version-Web-port

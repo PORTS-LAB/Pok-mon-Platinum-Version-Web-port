@@ -1,0 +1,2049 @@
+{
+ "title": "POKEMON PL",
+ "gamecode": "CPUE",
+ "rom_size": 134217728,
+ "rom_sha256": "ede62292aa7f7014ff27d42097e769753380531739889c29b968b67b80f80678",
+ "file_count": 340,
+ "files": [
+  {
+   "path": "application/balloon/graphic/balloon_gra.narc",
+   "offset": 99819520,
+   "size": 303008,
+   "sha256": "128959a128857826"
+  },
+  {
+   "path": "application/bucket/ballslow_data.narc",
+   "offset": 100251648,
+   "size": 420,
+   "sha256": "1a5f793e0d663dcd"
+  },
+  {
+   "path": "application/custom_ball/data/cb_data.narc",
+   "offset": 97120256,
+   "size": 60812,
+   "sha256": "4b25ee9d91e977fc"
+  },
+  {
+   "path": "application/custom_ball/edit/pl_cb_data.narc",
+   "offset": 99708416,
+   "size": 3132,
+   "sha256": "f4e4742692bc6bc2"
+  },
+  {
+   "path": "application/wifi_earth/wifi_earth.narc",
+   "offset": 96964096,
+   "size": 152180,
+   "sha256": "a529c990a715b959"
+  },
+  {
+   "path": "application/wifi_earth/wifi_earth_place.narc",
+   "offset": 97116672,
+   "size": 3272,
+   "sha256": "067806345d96ce91"
+  },
+  {
+   "path": "application/wifi_lobby/map_conv/wflby_map.narc",
+   "offset": 100122624,
+   "size": 17040,
+   "sha256": "5fefe70c66946659"
+  },
+  {
+   "path": "application/zukanlist/zkn_data/zukan_data.narc",
+   "offset": 96918016,
+   "size": 22664,
+   "sha256": "e35657709c211883"
+  },
+  {
+   "path": "application/zukanlist/zkn_data/zukan_data_gira.narc",
+   "offset": 96941056,
+   "size": 22668,
+   "sha256": "91190b7abed4f041"
+  },
+  {
+   "path": "application/zukanlist/zkn_data/zukan_enc_diamond.narc",
+   "offset": 99437568,
+   "size": 71456,
+   "sha256": "b4262a3faaf64a1d"
+  },
+  {
+   "path": "application/zukanlist/zkn_data/zukan_enc_pearl.narc",
+   "offset": 99509248,
+   "size": 71432,
+   "sha256": "97c126918497d527"
+  },
+  {
+   "path": "application/zukanlist/zkn_data/zukan_enc_platinum.narc",
+   "offset": 99580928,
+   "size": 71460,
+   "sha256": "618fff4cf05edf5d"
+  },
+  {
+   "path": "arc/area_win_gra.narc",
+   "offset": 97299968,
+   "size": 33388,
+   "sha256": "266076884172c17f"
+  },
+  {
+   "path": "arc/balance_ball_gra.narc",
+   "offset": 97333760,
+   "size": 141356,
+   "sha256": "9b9260aab0d01c22"
+  },
+  {
+   "path": "arc/bm_anime.narc",
+   "offset": 97475584,
+   "size": 73040,
+   "sha256": "db2aec4c463f5afb"
+  },
+  {
+   "path": "arc/bm_anime_list.narc",
+   "offset": 97548800,
+   "size": 16572,
+   "sha256": "536f4c93d6ccde5f"
+  },
+  {
+   "path": "arc/codein_gra.narc",
+   "offset": 97565696,
+   "size": 93268,
+   "sha256": "7afdf9b3a07bf56f"
+  },
+  {
+   "path": "arc/demo_tengan_gra.narc",
+   "offset": 97659392,
+   "size": 953056,
+   "sha256": "43161092371649c0"
+  },
+  {
+   "path": "arc/email_gra.narc",
+   "offset": 98612736,
+   "size": 26124,
+   "sha256": "435d7b385476242b"
+  },
+  {
+   "path": "arc/encdata_ex.narc",
+   "offset": 98639360,
+   "size": 1828,
+   "sha256": "a5d3e77378c89119"
+  },
+  {
+   "path": "arc/manene.narc",
+   "offset": 98641408,
+   "size": 257844,
+   "sha256": "eac58a191d8b5ae0"
+  },
+  {
+   "path": "arc/plgym_ghost.narc",
+   "offset": 98899456,
+   "size": 4936,
+   "sha256": "fea0e03cf0507662"
+  },
+  {
+   "path": "arc/ppark.narc",
+   "offset": 98904576,
+   "size": 3020,
+   "sha256": "78ed2c1252ca3d76"
+  },
+  {
+   "path": "arc/ship_demo.narc",
+   "offset": 98907648,
+   "size": 95064,
+   "sha256": "b596db0ce389ad0b"
+  },
+  {
+   "path": "arc/ship_demo_pl.narc",
+   "offset": 99002880,
+   "size": 62036,
+   "sha256": "51ed04d5368d2593"
+  },
+  {
+   "path": "arc/tv.narc",
+   "offset": 99065344,
+   "size": 1160,
+   "sha256": "a3359d3195b49df4"
+  },
+  {
+   "path": "battle/b_pl_stage/pl_bsdpm.narc",
+   "offset": 100179456,
+   "size": 11524,
+   "sha256": "756b1456bc7e219e"
+  },
+  {
+   "path": "battle/b_pl_tower/pl_btdpm.narc",
+   "offset": 100191232,
+   "size": 22876,
+   "sha256": "db14c00f0c288755"
+  },
+  {
+   "path": "battle/b_pl_tower/pl_btdtr.narc",
+   "offset": 100214272,
+   "size": 37160,
+   "sha256": "69d17bcc62e4bb0f"
+  },
+  {
+   "path": "battle/b_tower/btdpm.narc",
+   "offset": 99380736,
+   "size": 22876,
+   "sha256": "776d9ad316bd6a9d"
+  },
+  {
+   "path": "battle/b_tower/btdtr.narc",
+   "offset": 99403776,
+   "size": 33728,
+   "sha256": "9d8e016906e413d7"
+  },
+  {
+   "path": "battle/graphic/b_bag_gra.narc",
+   "offset": 57861632,
+   "size": 20228,
+   "sha256": "1bad36d04c4462f5"
+  },
+  {
+   "path": "battle/graphic/b_plist_gra.narc",
+   "offset": 57882112,
+   "size": 74408,
+   "sha256": "1786a3fdf7ddfbdb"
+  },
+  {
+   "path": "battle/graphic/batt_bg.narc",
+   "offset": 57956864,
+   "size": 640124,
+   "sha256": "bcf2c24ae32b38a5"
+  },
+  {
+   "path": "battle/graphic/batt_obj.narc",
+   "offset": 58597376,
+   "size": 131676,
+   "sha256": "04e5df4768970cc2"
+  },
+  {
+   "path": "battle/graphic/pl_b_plist_gra.narc",
+   "offset": 58729472,
+   "size": 74408,
+   "sha256": "1786a3fdf7ddfbdb"
+  },
+  {
+   "path": "battle/graphic/pl_batt_bg.narc",
+   "offset": 58804224,
+   "size": 852772,
+   "sha256": "6a6d0ce93ba75c6a"
+  },
+  {
+   "path": "battle/graphic/pl_batt_obj.narc",
+   "offset": 59657216,
+   "size": 169112,
+   "sha256": "0508d8818866b770"
+  },
+  {
+   "path": "battle/graphic/vs_demo_gra.narc",
+   "offset": 59826688,
+   "size": 44416,
+   "sha256": "314b208ba604bc40"
+  },
+  {
+   "path": "battle/skill/be_seq.narc",
+   "offset": 60140032,
+   "size": 16940,
+   "sha256": "03157b91d68c906f"
+  },
+  {
+   "path": "battle/skill/sub_seq.narc",
+   "offset": 60157440,
+   "size": 53196,
+   "sha256": "f92484a1b43efb74"
+  },
+  {
+   "path": "battle/skill/waza_seq.narc",
+   "offset": 60210688,
+   "size": 6416,
+   "sha256": "ac543204e98c8149"
+  },
+  {
+   "path": "battle/tr_ai/tr_ai_seq.narc",
+   "offset": 97257472,
+   "size": 42448,
+   "sha256": "74b17cd373c63c5a"
+  },
+  {
+   "path": "contest/data/contest_data.narc",
+   "offset": 96858112,
+   "size": 14140,
+   "sha256": "7cf7c17d07b805fc"
+  },
+  {
+   "path": "contest/graphic/contest_bg.narc",
+   "offset": 100274176,
+   "size": 81248,
+   "sha256": "59a133a57e05c8ba"
+  },
+  {
+   "path": "contest/graphic/contest_obj.narc",
+   "offset": 100355584,
+   "size": 25108,
+   "sha256": "7e76892cf46bbef7"
+  },
+  {
+   "path": "data/UTF16.dat",
+   "offset": 4408832,
+   "size": 490,
+   "sha256": "2e66cc1325a472ba"
+  },
+  {
+   "path": "data/arealight.narc",
+   "offset": 4409344,
+   "size": 8376,
+   "sha256": "a8cf7c77d702ad19"
+  },
+  {
+   "path": "data/battle_win.NSCR",
+   "offset": 4418048,
+   "size": 2084,
+   "sha256": "786c211effb3f476"
+  },
+  {
+   "path": "data/btower_canm.resdat",
+   "offset": 4420608,
+   "size": 52,
+   "sha256": "2c906d1ffb6a6720"
+  },
+  {
+   "path": "data/btower_celact.cldat",
+   "offset": 4421120,
+   "size": 64,
+   "sha256": "1f123e9d1801e4ef"
+  },
+  {
+   "path": "data/btower_cell.resdat",
+   "offset": 4421632,
+   "size": 52,
+   "sha256": "a74a51eb2d927d86"
+  },
+  {
+   "path": "data/btower_chr.resdat",
+   "offset": 4422144,
+   "size": 52,
+   "sha256": "3203fffb886d328c"
+  },
+  {
+   "path": "data/btower_pal.resdat",
+   "offset": 4422656,
+   "size": 52,
+   "sha256": "a25715710de58cb5"
+  },
+  {
+   "path": "data/cell0.NCGR",
+   "offset": 4423168,
+   "size": 8240,
+   "sha256": "744e07505e4c80a6"
+  },
+  {
+   "path": "data/cell0.NCLR",
+   "offset": 4431872,
+   "size": 552,
+   "sha256": "ec23e08f70ec23be"
+  },
+  {
+   "path": "data/clact_default.NANR",
+   "offset": 4432896,
+   "size": 111,
+   "sha256": "30249884bd91f10b"
+  },
+  {
+   "path": "data/crystal.nsbmd",
+   "offset": 4433408,
+   "size": 3332,
+   "sha256": "67ea106ff319b630"
+  },
+  {
+   "path": "data/demo_climax.narc",
+   "offset": 4436992,
+   "size": 472620,
+   "sha256": "18d011c800914e04"
+  },
+  {
+   "path": "data/dp_areawindow.NCGR",
+   "offset": 4910080,
+   "size": 368,
+   "sha256": "25a619fba61e036c"
+  },
+  {
+   "path": "data/dp_areawindow.NCLR",
+   "offset": 4910592,
+   "size": 552,
+   "sha256": "6e5afdca34a65cd2"
+  },
+  {
+   "path": "data/dt_test_celact.txt",
+   "offset": 4911616,
+   "size": 54,
+   "sha256": "657d5de29b925e3e"
+  },
+  {
+   "path": "data/dt_test_res_cell.txt",
+   "offset": 4912128,
+   "size": 38,
+   "sha256": "c8389498002fe33a"
+  },
+  {
+   "path": "data/dt_test_res_cellanm.txt",
+   "offset": 4912640,
+   "size": 38,
+   "sha256": "cbe867be063be570"
+  },
+  {
+   "path": "data/dt_test_res_char.txt",
+   "offset": 4913152,
+   "size": 43,
+   "sha256": "385fccd82bc01a6c"
+  },
+  {
+   "path": "data/dt_test_res_multi.txt",
+   "offset": 4913664,
+   "size": 16,
+   "sha256": "8b908000b9cf2975"
+  },
+  {
+   "path": "data/dt_test_res_multianm.txt",
+   "offset": 4914176,
+   "size": 16,
+   "sha256": "1b97c2f67dccdc6b"
+  },
+  {
+   "path": "data/dt_test_res_pltt.txt",
+   "offset": 4914688,
+   "size": 45,
+   "sha256": "4bb2f67548edddd0"
+  },
+  {
+   "path": "data/dun_sea.nsbtx",
+   "offset": 4915200,
+   "size": 1400,
+   "sha256": "39c857f5b0fb8e0c"
+  },
+  {
+   "path": "data/eoo.dat",
+   "offset": 4916736,
+   "size": 277504,
+   "sha256": "8c02d5557051ea41"
+  },
+  {
+   "path": "data/exdata.dat",
+   "offset": 5194240,
+   "size": 292,
+   "sha256": "d25f106d39d48484"
+  },
+  {
+   "path": "data/field_cutin.narc",
+   "offset": 5194752,
+   "size": 23072,
+   "sha256": "e98a6112a721d814"
+  },
+  {
+   "path": "data/fld_anime0.bin",
+   "offset": 5218304,
+   "size": 72,
+   "sha256": "1ec9b817623b914a"
+  },
+  {
+   "path": "data/fld_anime1.bin",
+   "offset": 5218816,
+   "size": 72,
+   "sha256": "7f72c84bb5552e47"
+  },
+  {
+   "path": "data/fld_anime10.bin",
+   "offset": 5219328,
+   "size": 72,
+   "sha256": "c19e0811ae7000f2"
+  },
+  {
+   "path": "data/fld_anime2.bin",
+   "offset": 5219840,
+   "size": 72,
+   "sha256": "a2b9cb0bb30abe7e"
+  },
+  {
+   "path": "data/fld_anime3.bin",
+   "offset": 5220352,
+   "size": 72,
+   "sha256": "84a53ae8352350e3"
+  },
+  {
+   "path": "data/fld_anime4.bin",
+   "offset": 5220864,
+   "size": 72,
+   "sha256": "5978dbb7f77e96e6"
+  },
+  {
+   "path": "data/fld_anime5.bin",
+   "offset": 5221376,
+   "size": 72,
+   "sha256": "de96fcc88817b179"
+  },
+  {
+   "path": "data/fld_anime6.bin",
+   "offset": 5221888,
+   "size": 72,
+   "sha256": "81fbe84c6fa50dc5"
+  },
+  {
+   "path": "data/fld_anime7.bin",
+   "offset": 5222400,
+   "size": 72,
+   "sha256": "f44ac96d074f5918"
+  },
+  {
+   "path": "data/fld_anime8.bin",
+   "offset": 5222912,
+   "size": 72,
+   "sha256": "49908acbeaec47bc"
+  },
+  {
+   "path": "data/fld_anime9.bin",
+   "offset": 5223424,
+   "size": 72,
+   "sha256": "7da5c71f81701b46"
+  },
+  {
+   "path": "data/fldtanime.narc",
+   "offset": 5223936,
+   "size": 154640,
+   "sha256": "d54244a74840303d"
+  },
+  {
+   "path": "data/fs_kanban.nsbca",
+   "offset": 5379072,
+   "size": 2036,
+   "sha256": "41b95f6d1c3e3bfa"
+  },
+  {
+   "path": "data/ground0.NCGR",
+   "offset": 5381120,
+   "size": 32816,
+   "sha256": "11c41561e7436491"
+  },
+  {
+   "path": "data/ground0.NCLR",
+   "offset": 5414400,
+   "size": 552,
+   "sha256": "35263e138d7e792e"
+  },
+  {
+   "path": "data/ground0.NSCR",
+   "offset": 5415424,
+   "size": 2084,
+   "sha256": "3ab3b003d343c067"
+  },
+  {
+   "path": "data/guru2.narc",
+   "offset": 5417984,
+   "size": 191724,
+   "sha256": "8c3a803c0a2c3d5d"
+  },
+  {
+   "path": "data/kemu_itpconv.dat",
+   "offset": 5609984,
+   "size": 20,
+   "sha256": "e985fdcdde695290"
+  },
+  {
+   "path": "data/lake_anim.nsbtx",
+   "offset": 5610496,
+   "size": 4432,
+   "sha256": "b474bda5a56416de"
+  },
+  {
+   "path": "data/miniasahamabe.nsbtx",
+   "offset": 5615104,
+   "size": 4488,
+   "sha256": "753ea89fce5bf92a"
+  },
+  {
+   "path": "data/miniasasea.nsbtx",
+   "offset": 5619712,
+   "size": 1400,
+   "sha256": "bc976c5218b1ce85"
+  },
+  {
+   "path": "data/minihamabe.nsbtx",
+   "offset": 5621248,
+   "size": 4488,
+   "sha256": "cb3d2f0222750984"
+  },
+  {
+   "path": "data/minimum.nsbtx",
+   "offset": 5625856,
+   "size": 1400,
+   "sha256": "155a8541e3c57084"
+  },
+  {
+   "path": "data/minirhana.nsbtx",
+   "offset": 5627392,
+   "size": 712,
+   "sha256": "ebfa325c84a39548"
+  },
+  {
+   "path": "data/mmodel/fldeff.narc",
+   "offset": 71517184,
+   "size": 320780,
+   "sha256": "8817705469670169"
+  },
+  {
+   "path": "data/mmodel/mmodel.narc",
+   "offset": 70050816,
+   "size": 1465988,
+   "sha256": "47ca5ab1b49a3f17"
+  },
+  {
+   "path": "data/namein.narc",
+   "offset": 5628416,
+   "size": 16292,
+   "sha256": "3a690f811bc4342b"
+  },
+  {
+   "path": "data/nfont.NCGR",
+   "offset": 5644800,
+   "size": 32816,
+   "sha256": "e410717b2e20e748"
+  },
+  {
+   "path": "data/nfont.NCLR",
+   "offset": 5678080,
+   "size": 552,
+   "sha256": "0bf22d2454070563"
+  },
+  {
+   "path": "data/pc.nsbca",
+   "offset": 5679104,
+   "size": 396,
+   "sha256": "7aa84debb0c59cef"
+  },
+  {
+   "path": "data/pl_wifi.ncgr",
+   "offset": 5679616,
+   "size": 576,
+   "sha256": "d43dc9dedac998e6"
+  },
+  {
+   "path": "data/pl_wm.ncgr",
+   "offset": 5680640,
+   "size": 576,
+   "sha256": "ced58383a0c9395f"
+  },
+  {
+   "path": "data/pl_wm.nclr",
+   "offset": 5681664,
+   "size": 552,
+   "sha256": "b087be2bd632abd6"
+  },
+  {
+   "path": "data/plbr.dat",
+   "offset": 5682688,
+   "size": 420928,
+   "sha256": "423741a42eb490dd"
+  },
+  {
+   "path": "data/plist_canm.resdat",
+   "offset": 6104064,
+   "size": 196,
+   "sha256": "6aefb4083e39d953"
+  },
+  {
+   "path": "data/plist_cell.resdat",
+   "offset": 6104576,
+   "size": 196,
+   "sha256": "55e6332f0852f988"
+  },
+  {
+   "path": "data/plist_chr.resdat",
+   "offset": 6105088,
+   "size": 316,
+   "sha256": "4400362e841a8812"
+  },
+  {
+   "path": "data/plist_h.cldat",
+   "offset": 6105600,
+   "size": 416,
+   "sha256": "8278e86c245bd6a3"
+  },
+  {
+   "path": "data/plist_pal.resdat",
+   "offset": 6106112,
+   "size": 148,
+   "sha256": "f1abc76d96d88132"
+  },
+  {
+   "path": "data/porucase_canm.resdat",
+   "offset": 6106624,
+   "size": 76,
+   "sha256": "9bdcc1919c667a68"
+  },
+  {
+   "path": "data/porucase_celact.cldat",
+   "offset": 6107136,
+   "size": 96,
+   "sha256": "98da22b91ed5487b"
+  },
+  {
+   "path": "data/porucase_cell.resdat",
+   "offset": 6107648,
+   "size": 76,
+   "sha256": "ae15f03165e11e91"
+  },
+  {
+   "path": "data/porucase_chr.resdat",
+   "offset": 6108160,
+   "size": 76,
+   "sha256": "c42ad0ab9664ac46"
+  },
+  {
+   "path": "data/porucase_pal.resdat",
+   "offset": 6108672,
+   "size": 52,
+   "sha256": "a31b47ea49671950"
+  },
+  {
+   "path": "data/pst_canm.resdat",
+   "offset": 6109184,
+   "size": 436,
+   "sha256": "566a85d13cb2f048"
+  },
+  {
+   "path": "data/pst_cell.resdat",
+   "offset": 6109696,
+   "size": 436,
+   "sha256": "8e83f1caed1a6743"
+  },
+  {
+   "path": "data/pst_chr.resdat",
+   "offset": 6110208,
+   "size": 1060,
+   "sha256": "eacc4dbe1f694a02"
+  },
+  {
+   "path": "data/pst_h.cldat",
+   "offset": 6111744,
+   "size": 1408,
+   "sha256": "436de87b1b9a4ac7"
+  },
+  {
+   "path": "data/pst_pal.resdat",
+   "offset": 6113280,
+   "size": 172,
+   "sha256": "87a5957cf29fb953"
+  },
+  {
+   "path": "data/shop_canm.resdat",
+   "offset": 6113792,
+   "size": 100,
+   "sha256": "823fcb63ac3823f4"
+  },
+  {
+   "path": "data/shop_cell.resdat",
+   "offset": 6114304,
+   "size": 100,
+   "sha256": "eb0b7ead8bac9b90"
+  },
+  {
+   "path": "data/shop_chr.resdat",
+   "offset": 6114816,
+   "size": 100,
+   "sha256": "005159feb5641bd7"
+  },
+  {
+   "path": "data/shop_h.cldat",
+   "offset": 6115328,
+   "size": 128,
+   "sha256": "39efe178b8d71838"
+  },
+  {
+   "path": "data/shop_pal.resdat",
+   "offset": 6115840,
+   "size": 76,
+   "sha256": "8cd4a0abea77d5a2"
+  },
+  {
+   "path": "data/slot.narc",
+   "offset": 6116352,
+   "size": 88388,
+   "sha256": "f8f3652b02d4ca83"
+  },
+  {
+   "path": "data/smptm_koori.NANR",
+   "offset": 6204928,
+   "size": 163,
+   "sha256": "8b86c5a47c78fad0"
+  },
+  {
+   "path": "data/smptm_koori.NCER",
+   "offset": 6205440,
+   "size": 215,
+   "sha256": "cab213e4865c507e"
+  },
+  {
+   "path": "data/smptm_koori.NCGR",
+   "offset": 6205952,
+   "size": 3248,
+   "sha256": "0bbdb832a2e68b21"
+  },
+  {
+   "path": "data/smptm_koori.NCLR",
+   "offset": 6209536,
+   "size": 552,
+   "sha256": "e8b3ecf1147d1085"
+  },
+  {
+   "path": "data/smptm_nemuri.NANR",
+   "offset": 6210560,
+   "size": 111,
+   "sha256": "02501a6a5ce892af"
+  },
+  {
+   "path": "data/smptm_nemuri.NCER",
+   "offset": 6211072,
+   "size": 99,
+   "sha256": "c3325d4ceb81ca33"
+  },
+  {
+   "path": "data/smptm_nemuri.NCGR",
+   "offset": 6211584,
+   "size": 560,
+   "sha256": "8aedbf79a2c78ed7"
+  },
+  {
+   "path": "data/smptm_nemuri.NCLR",
+   "offset": 6212608,
+   "size": 552,
+   "sha256": "7072a697c60eb373"
+  },
+  {
+   "path": "data/sound/pl_sound_data.sdat",
+   "offset": 15309312,
+   "size": 7947008,
+   "sha256": "2800b19d4936b52b"
+  },
+  {
+   "path": "data/sound/sound_data.sdat",
+   "offset": 7824384,
+   "size": 7484768,
+   "sha256": "c3f5535dfae0bde2"
+  },
+  {
+   "path": "data/str2uni.bin",
+   "offset": 6213632,
+   "size": 4832,
+   "sha256": "3c6d570b9d985d41"
+  },
+  {
+   "path": "data/t3_fl_b.nsbtx",
+   "offset": 6218752,
+   "size": 592,
+   "sha256": "a11539bf20040b84"
+  },
+  {
+   "path": "data/t3_fl_p.nsbtx",
+   "offset": 6219776,
+   "size": 592,
+   "sha256": "d01550848b0f4124"
+  },
+  {
+   "path": "data/t3_fl_r.nsbtx",
+   "offset": 6220800,
+   "size": 592,
+   "sha256": "67c4f0ad6b0ba3b4"
+  },
+  {
+   "path": "data/t3_fl_y.nsbtx",
+   "offset": 6221824,
+   "size": 592,
+   "sha256": "9b3b8aa1df95dc34"
+  },
+  {
+   "path": "data/test.atr",
+   "offset": 6222848,
+   "size": 2048,
+   "sha256": "f955bdcb6611c4e3"
+  },
+  {
+   "path": "data/tmap_block.dat",
+   "offset": 6224896,
+   "size": 4372,
+   "sha256": "6f1077e1c1eebcba"
+  },
+  {
+   "path": "data/tmap_flags.dat",
+   "offset": 6229504,
+   "size": 732,
+   "sha256": "a1b0002fe43379e9"
+  },
+  {
+   "path": "data/tmapn_canm.resdat",
+   "offset": 6230528,
+   "size": 148,
+   "sha256": "72425a598afa45b0"
+  },
+  {
+   "path": "data/tmapn_celact.cldat",
+   "offset": 6231040,
+   "size": 192,
+   "sha256": "fd393f5096a32d59"
+  },
+  {
+   "path": "data/tmapn_celact.txt",
+   "offset": 6231552,
+   "size": 268,
+   "sha256": "8152f0391dee4c27"
+  },
+  {
+   "path": "data/tmapn_cell.resdat",
+   "offset": 6232064,
+   "size": 148,
+   "sha256": "ef5015c57fa94c1c"
+  },
+  {
+   "path": "data/tmapn_chr.resdat",
+   "offset": 6232576,
+   "size": 148,
+   "sha256": "38bbe458432e856b"
+  },
+  {
+   "path": "data/tmapn_pal.resdat",
+   "offset": 6233088,
+   "size": 76,
+   "sha256": "e27ac43992dec007"
+  },
+  {
+   "path": "data/tmapn_res_canm.txt",
+   "offset": 6233600,
+   "size": 170,
+   "sha256": "406713c3a6ca63c7"
+  },
+  {
+   "path": "data/tmapn_res_cell.txt",
+   "offset": 6234112,
+   "size": 186,
+   "sha256": "60b5ca5d92731d92"
+  },
+  {
+   "path": "data/tmapn_res_chr.txt",
+   "offset": 6234624,
+   "size": 220,
+   "sha256": "884025c767a9a17a"
+  },
+  {
+   "path": "data/tmapn_res_pal.txt",
+   "offset": 6235136,
+   "size": 149,
+   "sha256": "c7a4e4407de1c66f"
+  },
+  {
+   "path": "data/tradelist.narc",
+   "offset": 6235648,
+   "size": 10868,
+   "sha256": "69ff435241dccf78"
+  },
+  {
+   "path": "data/trapmark.narc",
+   "offset": 6246912,
+   "size": 612,
+   "sha256": "6f577df39a0bc2ef"
+  },
+  {
+   "path": "data/tw_arc_etc.naix",
+   "offset": 6247936,
+   "size": 1485,
+   "sha256": "b7880f55157a5995"
+  },
+  {
+   "path": "data/tw_arc_etc.narc",
+   "offset": 6249472,
+   "size": 22488,
+   "sha256": "ad6734f1fc98d8db"
+  },
+  {
+   "path": "data/ug_anim.narc",
+   "offset": 6272000,
+   "size": 23680,
+   "sha256": "cd49b51638dcf62c"
+  },
+  {
+   "path": "data/ug_base_cur.nsbmd",
+   "offset": 6296064,
+   "size": 1684,
+   "sha256": "3a6a9145c00acfda"
+  },
+  {
+   "path": "data/ug_boygirl.NCGR",
+   "offset": 6298112,
+   "size": 4656,
+   "sha256": "48d58205e3af7664"
+  },
+  {
+   "path": "data/ug_boygirl.NCLR",
+   "offset": 6303232,
+   "size": 552,
+   "sha256": "5b223381bb291856"
+  },
+  {
+   "path": "data/ug_fossil.narc",
+   "offset": 6304256,
+   "size": 16088,
+   "sha256": "4f48a58a7eaedfe8"
+  },
+  {
+   "path": "data/ug_hero.NANR",
+   "offset": 6320640,
+   "size": 249,
+   "sha256": "9082d4c4ec380836"
+  },
+  {
+   "path": "data/ug_hero.NCER",
+   "offset": 6321152,
+   "size": 265,
+   "sha256": "a5ae217f2e4880f1"
+  },
+  {
+   "path": "data/ug_hole.NANR",
+   "offset": 6321664,
+   "size": 214,
+   "sha256": "bfd73e8fffad25a2"
+  },
+  {
+   "path": "data/ug_hole.NCER",
+   "offset": 6322176,
+   "size": 162,
+   "sha256": "146cc38ba450df40"
+  },
+  {
+   "path": "data/ug_hole.NCGR",
+   "offset": 6322688,
+   "size": 1328,
+   "sha256": "d18c686e78cb6a83"
+  },
+  {
+   "path": "data/ug_parts.narc",
+   "offset": 6324224,
+   "size": 133020,
+   "sha256": "6aef71920a64161c"
+  },
+  {
+   "path": "data/ug_radar.narc",
+   "offset": 6457344,
+   "size": 14440,
+   "sha256": "38c022b32cbfb6be"
+  },
+  {
+   "path": "data/ug_trap.narc",
+   "offset": 6472192,
+   "size": 121772,
+   "sha256": "41fd698d83b7f883"
+  },
+  {
+   "path": "data/ugeffect_obj_graphic.narc",
+   "offset": 6594048,
+   "size": 19816,
+   "sha256": "07cd66cad70cdd69"
+  },
+  {
+   "path": "data/uground_cell.resdat",
+   "offset": 6614016,
+   "size": 76,
+   "sha256": "0c50e13f1dbcb085"
+  },
+  {
+   "path": "data/uground_cellanm.resdat",
+   "offset": 6614528,
+   "size": 76,
+   "sha256": "6190918be0b8fa7b"
+  },
+  {
+   "path": "data/uground_char.resdat",
+   "offset": 6615040,
+   "size": 76,
+   "sha256": "badc16d06b427eb1"
+  },
+  {
+   "path": "data/uground_char2.resdat",
+   "offset": 6615552,
+   "size": 76,
+   "sha256": "66ca5e25a5e8df7e"
+  },
+  {
+   "path": "data/uground_clact.cldat",
+   "offset": 6616064,
+   "size": 96,
+   "sha256": "e2fbcefbe3bbc036"
+  },
+  {
+   "path": "data/uground_pltt.resdat",
+   "offset": 6616576,
+   "size": 52,
+   "sha256": "d5fc6e80c4477cc6"
+  },
+  {
+   "path": "data/uground_pltt2.resdat",
+   "offset": 6617088,
+   "size": 52,
+   "sha256": "cae65e73a4ac3ccb"
+  },
+  {
+   "path": "data/ugroundeffect.naix",
+   "offset": 6617600,
+   "size": 765,
+   "sha256": "e41f4e6c1ecb4bed"
+  },
+  {
+   "path": "data/ugroundeffect.narc",
+   "offset": 6618624,
+   "size": 612,
+   "sha256": "904264a60b0b974e"
+  },
+  {
+   "path": "data/underg_radar.narc",
+   "offset": 6619648,
+   "size": 41524,
+   "sha256": "f02b453a55678f11"
+  },
+  {
+   "path": "data/utility.bin",
+   "offset": 6661632,
+   "size": 929852,
+   "sha256": "db8ee36170897f60"
+  },
+  {
+   "path": "data/weather_sys.narc",
+   "offset": 7591936,
+   "size": 78320,
+   "sha256": "acd4b6b193287ba4"
+  },
+  {
+   "path": "data/wifi.ncgr",
+   "offset": 7670272,
+   "size": 576,
+   "sha256": "430c0ce5ad939c0d"
+  },
+  {
+   "path": "data/wifip2pmatch.narc",
+   "offset": 7671296,
+   "size": 150628,
+   "sha256": "467e8dc878fd233e"
+  },
+  {
+   "path": "data/wm.ncgr",
+   "offset": 7822336,
+   "size": 576,
+   "sha256": "ced58383a0c9395f"
+  },
+  {
+   "path": "data/wm.nclr",
+   "offset": 7823360,
+   "size": 552,
+   "sha256": "63ebf8df9ecd51de"
+  },
+  {
+   "path": "debug/cb_edit/d_test.narc",
+   "offset": 99696640,
+   "size": 11744,
+   "sha256": "be2ede7ab87e66d4"
+  },
+  {
+   "path": "demo/egg/data/egg_data.narc",
+   "offset": 97181184,
+   "size": 11004,
+   "sha256": "c4fcc55205b9fbc5"
+  },
+  {
+   "path": "demo/egg/data/particle/egg_demo_particle.narc",
+   "offset": 97192448,
+   "size": 9708,
+   "sha256": "97429870ad23f453"
+  },
+  {
+   "path": "demo/intro/intro.narc",
+   "offset": 99118592,
+   "size": 112620,
+   "sha256": "f3bc0fa18b54f7b6"
+  },
+  {
+   "path": "demo/intro/intro_tv.narc",
+   "offset": 99231232,
+   "size": 109188,
+   "sha256": "05fe8f3d86de699f"
+  },
+  {
+   "path": "demo/shinka/data/particle/shinka_demo_particle.narc",
+   "offset": 99108864,
+   "size": 9364,
+   "sha256": "4519249fa8c3c6da"
+  },
+  {
+   "path": "demo/syoujyou/syoujyou.narc",
+   "offset": 99340800,
+   "size": 39748,
+   "sha256": "9b07b799c2018957"
+  },
+  {
+   "path": "demo/title/op_demo.narc",
+   "offset": 100381184,
+   "size": 1257224,
+   "sha256": "815b699ada0313f5"
+  },
+  {
+   "path": "demo/title/titledemo.narc",
+   "offset": 101638656,
+   "size": 219192,
+   "sha256": "761578f9fb894003"
+  },
+  {
+   "path": "dwc/utility.bin",
+   "offset": 103677952,
+   "size": 929852,
+   "sha256": "db8ee36170897f60"
+  },
+  {
+   "path": "fielddata/areadata/area_build_model/area_build.narc",
+   "offset": 77233152,
+   "size": 6468,
+   "sha256": "d259b1f9531663d2"
+  },
+  {
+   "path": "fielddata/areadata/area_build_model/areabm_texset.narc",
+   "offset": 77239808,
+   "size": 1617848,
+   "sha256": "92fa4b336e562a32"
+  },
+  {
+   "path": "fielddata/areadata/area_data.narc",
+   "offset": 77231616,
+   "size": 1252,
+   "sha256": "1e5689af536504ec"
+  },
+  {
+   "path": "fielddata/areadata/area_map_tex/map_tex_set.narc",
+   "offset": 78857728,
+   "size": 1872684,
+   "sha256": "301b70271068a43e"
+  },
+  {
+   "path": "fielddata/areadata/area_move_model/move_model_list.narc",
+   "offset": 80730624,
+   "size": 1432,
+   "sha256": "d1a5cb3c1fe72d04"
+  },
+  {
+   "path": "fielddata/build_model/build_model.narc",
+   "offset": 74956288,
+   "size": 2254892,
+   "sha256": "047ac52db4d091d3"
+  },
+  {
+   "path": "fielddata/build_model/build_model_matshp.dat",
+   "offset": 77211648,
+   "size": 6400,
+   "sha256": "90e140ce5b323811"
+  },
+  {
+   "path": "fielddata/encountdata/d_enc_data.narc",
+   "offset": 74718208,
+   "size": 79108,
+   "sha256": "8872da981014c6da"
+  },
+  {
+   "path": "fielddata/encountdata/p_enc_data.narc",
+   "offset": 74797568,
+   "size": 79108,
+   "sha256": "41be039d459f5eea"
+  },
+  {
+   "path": "fielddata/encountdata/pl_enc_data.narc",
+   "offset": 74876928,
+   "size": 79108,
+   "sha256": "44e1b7307638a509"
+  },
+  {
+   "path": "fielddata/eventdata/zone_event.narc",
+   "offset": 74560000,
+   "size": 157800,
+   "sha256": "6ed2f4971ceb1535"
+  },
+  {
+   "path": "fielddata/land_data/land_data.narc",
+   "offset": 80732160,
+   "size": 16125840,
+   "sha256": "814540bfef9651a5"
+  },
+  {
+   "path": "fielddata/mapmatrix/map_matrix.narc",
+   "offset": 77218304,
+   "size": 13052,
+   "sha256": "ba11ef9159201465"
+  },
+  {
+   "path": "fielddata/maptable/mapname.bin",
+   "offset": 99066880,
+   "size": 9488,
+   "sha256": "6d3eefddc493908d"
+  },
+  {
+   "path": "fielddata/mm_list/move_model_list.narc",
+   "offset": 97202176,
+   "size": 608,
+   "sha256": "3a424fe0f8e51ac3"
+  },
+  {
+   "path": "fielddata/pokemon_trade/fld_trade.narc",
+   "offset": 101858304,
+   "size": 404,
+   "sha256": "1b564ac18f73c71d"
+  },
+  {
+   "path": "fielddata/script/scr_seq.narc",
+   "offset": 60289536,
+   "size": 304476,
+   "sha256": "c94a07e1bad9be15"
+  },
+  {
+   "path": "fielddata/tornworld/tw_arc.narc",
+   "offset": 100140032,
+   "size": 7696,
+   "sha256": "ff9e88756cdadf16"
+  },
+  {
+   "path": "fielddata/tornworld/tw_arc_attr.narc",
+   "offset": 100148224,
+   "size": 24724,
+   "sha256": "29c8301cb3c7de8b"
+  },
+  {
+   "path": "frontier/script/fr_script.narc",
+   "offset": 99712000,
+   "size": 42716,
+   "sha256": "6d96fcc1452cfec6"
+  },
+  {
+   "path": "graphic/bag_gra.narc",
+   "offset": 60594176,
+   "size": 105588,
+   "sha256": "5e1d21ef61cc5a32"
+  },
+  {
+   "path": "graphic/box.narc",
+   "offset": 60700160,
+   "size": 149956,
+   "sha256": "335d14a8eb20d764"
+  },
+  {
+   "path": "graphic/btower.narc",
+   "offset": 60850176,
+   "size": 16888,
+   "sha256": "fdb70f9fba49c247"
+  },
+  {
+   "path": "graphic/bucket.narc",
+   "offset": 60867072,
+   "size": 259696,
+   "sha256": "5e831412b0cf12ed"
+  },
+  {
+   "path": "graphic/config_gra.narc",
+   "offset": 61127168,
+   "size": 684,
+   "sha256": "cd4fdb2d299ace36"
+  },
+  {
+   "path": "graphic/demo_trade.narc",
+   "offset": 61128192,
+   "size": 31512,
+   "sha256": "84c5643070177367"
+  },
+  {
+   "path": "graphic/dendou_demo.narc",
+   "offset": 61159936,
+   "size": 1564,
+   "sha256": "d3f76c5c4cc8c5fa"
+  },
+  {
+   "path": "graphic/dendou_pc.narc",
+   "offset": 61161984,
+   "size": 668,
+   "sha256": "3844b3b7482c93aa"
+  },
+  {
+   "path": "graphic/ending.narc",
+   "offset": 61163008,
+   "size": 1854944,
+   "sha256": "20989e0c37f1e668"
+  },
+  {
+   "path": "graphic/ev_pokeselect.narc",
+   "offset": 63017984,
+   "size": 140580,
+   "sha256": "57f6359243b2e663"
+  },
+  {
+   "path": "graphic/f_note_gra.narc",
+   "offset": 63158784,
+   "size": 10620,
+   "sha256": "3a1b1600f28697f0"
+  },
+  {
+   "path": "graphic/field_board.narc",
+   "offset": 63169536,
+   "size": 43260,
+   "sha256": "d680053f0afe3c8a"
+  },
+  {
+   "path": "graphic/field_encounteffect.narc",
+   "offset": 63213056,
+   "size": 264900,
+   "sha256": "0b3b4ed141a79769"
+  },
+  {
+   "path": "graphic/fld_comact.narc",
+   "offset": 63478272,
+   "size": 868,
+   "sha256": "1ca3e421c0ad0a38"
+  },
+  {
+   "path": "graphic/font.narc",
+   "offset": 63479296,
+   "size": 134744,
+   "sha256": "be387cbeec816dba"
+  },
+  {
+   "path": "graphic/fontoam.narc",
+   "offset": 63614464,
+   "size": 1444,
+   "sha256": "5ccff2254dbf1fe7"
+  },
+  {
+   "path": "graphic/footprint_board.narc",
+   "offset": 63616000,
+   "size": 36308,
+   "sha256": "8d717b0349d66aee"
+  },
+  {
+   "path": "graphic/hiden_effect.narc",
+   "offset": 63652352,
+   "size": 32276,
+   "sha256": "85d834c089435928"
+  },
+  {
+   "path": "graphic/imageclip.narc",
+   "offset": 63685120,
+   "size": 255536,
+   "sha256": "b9e5fdc4781e07ff"
+  },
+  {
+   "path": "graphic/library_tv.narc",
+   "offset": 63941120,
+   "size": 253272,
+   "sha256": "d6ac6da421d558c9"
+  },
+  {
+   "path": "graphic/lobby_news.narc",
+   "offset": 64194560,
+   "size": 64420,
+   "sha256": "e942ae3022b4020b"
+  },
+  {
+   "path": "graphic/mail_gra.narc",
+   "offset": 64259072,
+   "size": 106800,
+   "sha256": "e0c78256d8335716"
+  },
+  {
+   "path": "graphic/menu_gra.narc",
+   "offset": 64366080,
+   "size": 19312,
+   "sha256": "1cbecc0f08f51ed2"
+  },
+  {
+   "path": "graphic/mysign.narc",
+   "offset": 64385536,
+   "size": 4280,
+   "sha256": "f36c892150dee756"
+  },
+  {
+   "path": "graphic/mystery.narc",
+   "offset": 64390144,
+   "size": 32720,
+   "sha256": "9e13111437267688"
+  },
+  {
+   "path": "graphic/ntag_gra.narc",
+   "offset": 64422912,
+   "size": 183920,
+   "sha256": "1b969b5e73d02857"
+  },
+  {
+   "path": "graphic/nutmixer.narc",
+   "offset": 64607232,
+   "size": 180980,
+   "sha256": "2389bcbcfb89db63"
+  },
+  {
+   "path": "graphic/oekaki.narc",
+   "offset": 64788480,
+   "size": 5412,
+   "sha256": "a81ac3264060405b"
+  },
+  {
+   "path": "graphic/opening.narc",
+   "offset": 64794112,
+   "size": 27580,
+   "sha256": "a7f697f95321dcfb"
+  },
+  {
+   "path": "graphic/pl_bag_gra.narc",
+   "offset": 64821760,
+   "size": 105588,
+   "sha256": "74acc8a0a266a090"
+  },
+  {
+   "path": "graphic/pl_font.narc",
+   "offset": 64927744,
+   "size": 135204,
+   "sha256": "e1b1f24559ed5b80"
+  },
+  {
+   "path": "graphic/pl_plist_gra.narc",
+   "offset": 65063424,
+   "size": 40108,
+   "sha256": "851cf03f790d38a2"
+  },
+  {
+   "path": "graphic/pl_pst_gra.narc",
+   "offset": 65103872,
+   "size": 127152,
+   "sha256": "e6c188e2ad71dc54"
+  },
+  {
+   "path": "graphic/pl_wifinote.narc",
+   "offset": 65231360,
+   "size": 45340,
+   "sha256": "e61f007253e472e3"
+  },
+  {
+   "path": "graphic/pl_winframe.narc",
+   "offset": 65276928,
+   "size": 35044,
+   "sha256": "a6299f58d33c4a1c"
+  },
+  {
+   "path": "graphic/plist_gra.narc",
+   "offset": 65312256,
+   "size": 40108,
+   "sha256": "afc98cdfaa34fe70"
+  },
+  {
+   "path": "graphic/pmsi.narc",
+   "offset": 65352704,
+   "size": 12644,
+   "sha256": "0654fe9ef26ab42e"
+  },
+  {
+   "path": "graphic/poketch.narc",
+   "offset": 65365504,
+   "size": 59468,
+   "sha256": "2798c260f2a57ce0"
+  },
+  {
+   "path": "graphic/poru_gra.narc",
+   "offset": 65425408,
+   "size": 27108,
+   "sha256": "9b60ede5071fed56"
+  },
+  {
+   "path": "graphic/poruact.narc",
+   "offset": 65452544,
+   "size": 5292,
+   "sha256": "3690bbdc63e30a2e"
+  },
+  {
+   "path": "graphic/porudemo.narc",
+   "offset": 65458176,
+   "size": 8812,
+   "sha256": "2a62543af8b1f73e"
+  },
+  {
+   "path": "graphic/pst_gra.narc",
+   "offset": 65467392,
+   "size": 127152,
+   "sha256": "450b0dfde96b5a34"
+  },
+  {
+   "path": "graphic/ranking.narc",
+   "offset": 65594880,
+   "size": 5320,
+   "sha256": "41edac6df8e779a1"
+  },
+  {
+   "path": "graphic/record.narc",
+   "offset": 65600512,
+   "size": 22976,
+   "sha256": "71fa3b90beb567c0"
+  },
+  {
+   "path": "graphic/shop_gra.narc",
+   "offset": 65623552,
+   "size": 10608,
+   "sha256": "f719619e55739ba3"
+  },
+  {
+   "path": "graphic/tmap_gra.narc",
+   "offset": 65634304,
+   "size": 85776,
+   "sha256": "5685b1b9bad1bef0"
+  },
+  {
+   "path": "graphic/touch_subwindow.narc",
+   "offset": 65720320,
+   "size": 2456,
+   "sha256": "1b0cb1819a86dfb2"
+  },
+  {
+   "path": "graphic/trainer_case.narc",
+   "offset": 65722880,
+   "size": 240960,
+   "sha256": "b8a1ba4f43122d5a"
+  },
+  {
+   "path": "graphic/unionobj2d_onlyfront.narc",
+   "offset": 65964032,
+   "size": 15948,
+   "sha256": "52433ee18083e470"
+  },
+  {
+   "path": "graphic/unionroom.narc",
+   "offset": 65980416,
+   "size": 4624,
+   "sha256": "18af9494db8ab737"
+  },
+  {
+   "path": "graphic/waza_oshie_gra.narc",
+   "offset": 65985536,
+   "size": 12084,
+   "sha256": "6fca079a9b8ac505"
+  },
+  {
+   "path": "graphic/wifi2dchar.narc",
+   "offset": 65997824,
+   "size": 821528,
+   "sha256": "1add9c83f3bd71f5"
+  },
+  {
+   "path": "graphic/wifi_lobby.narc",
+   "offset": 66819584,
+   "size": 812032,
+   "sha256": "8422c63b78b94efd"
+  },
+  {
+   "path": "graphic/wifi_lobby_other.narc",
+   "offset": 67631616,
+   "size": 363436,
+   "sha256": "199e9668c7168141"
+  },
+  {
+   "path": "graphic/wifi_unionobj.narc",
+   "offset": 67995136,
+   "size": 91236,
+   "sha256": "de651e7bb614bae1"
+  },
+  {
+   "path": "graphic/winframe.narc",
+   "offset": 68086784,
+   "size": 35044,
+   "sha256": "656ad458e1a40d6f"
+  },
+  {
+   "path": "graphic/worldtimer.narc",
+   "offset": 68122112,
+   "size": 216612,
+   "sha256": "13e502908754b831"
+  },
+  {
+   "path": "graphic/worldtrade.narc",
+   "offset": 68339200,
+   "size": 46804,
+   "sha256": "12a39400dfeeda7c"
+  },
+  {
+   "path": "itemtool/itemdata/item_data.narc",
+   "offset": 68386304,
+   "size": 19500,
+   "sha256": "a6cfe6df97f24b19"
+  },
+  {
+   "path": "itemtool/itemdata/item_icon.narc",
+   "offset": 68406272,
+   "size": 399952,
+   "sha256": "3283f84a96e8a972"
+  },
+  {
+   "path": "itemtool/itemdata/nuts_data.narc",
+   "offset": 68806656,
+   "size": 1332,
+   "sha256": "671d1d33478a40e8"
+  },
+  {
+   "path": "itemtool/itemdata/pl_item_data.narc",
+   "offset": 68808192,
+   "size": 19676,
+   "sha256": "7e08d3e9a9403d41"
+  },
+  {
+   "path": "msgdata/msg.narc",
+   "offset": 27608064,
+   "size": 2695184,
+   "sha256": "4752cf00d6b646d9"
+  },
+  {
+   "path": "msgdata/pl_msg.narc",
+   "offset": 23256576,
+   "size": 4351320,
+   "sha256": "aa7dd88816082ec5"
+  },
+  {
+   "path": "msgdata/scenario/scr_msg.narc",
+   "offset": 30303744,
+   "size": 6748,
+   "sha256": "89e84ab4475c85ad"
+  },
+  {
+   "path": "particledata/particledata.narc",
+   "offset": 96872448,
+   "size": 45240,
+   "sha256": "78d15ced7d57f02c"
+  },
+  {
+   "path": "particledata/pl_etc/pl_etc_particle.narc",
+   "offset": 100252160,
+   "size": 21592,
+   "sha256": "110f8f54bef22900"
+  },
+  {
+   "path": "particledata/pl_frontier/frontier_particle.narc",
+   "offset": 99755008,
+   "size": 64024,
+   "sha256": "a4f9e4985c64b844"
+  },
+  {
+   "path": "particledata/pl_pokelist/pokelist_particle.narc",
+   "offset": 100173312,
+   "size": 5708,
+   "sha256": "2c8ec477064fc898"
+  },
+  {
+   "path": "pokeanime/pl_poke_anm.narc",
+   "offset": 97228800,
+   "size": 28500,
+   "sha256": "2299c76f657dc870"
+  },
+  {
+   "path": "pokeanime/poke_anm.narc",
+   "offset": 97203200,
+   "size": 25412,
+   "sha256": "32606834ed99b654"
+  },
+  {
+   "path": "poketool/icongra/pl_poke_icon.narc",
+   "offset": 68828160,
+   "size": 585336,
+   "sha256": "faf07645f4989cce"
+  },
+  {
+   "path": "poketool/icongra/poke_icon.narc",
+   "offset": 69413888,
+   "size": 577776,
+   "sha256": "3463c546c112f928"
+  },
+  {
+   "path": "poketool/personal/evo.narc",
+   "offset": 57740288,
+   "size": 26468,
+   "sha256": "fe6e4ec493a393ca"
+  },
+  {
+   "path": "poketool/personal/growtbl.narc",
+   "offset": 57766912,
+   "size": 3348,
+   "sha256": "ce5c612e32e537da"
+  },
+  {
+   "path": "poketool/personal/personal.narc",
+   "offset": 57687552,
+   "size": 26104,
+   "sha256": "9bc883e846af6cc0"
+  },
+  {
+   "path": "poketool/personal/pl_growtbl.narc",
+   "offset": 57770496,
+   "size": 3348,
+   "sha256": "ce5c612e32e537da"
+  },
+  {
+   "path": "poketool/personal/pl_personal.narc",
+   "offset": 57713664,
+   "size": 26468,
+   "sha256": "7f80d8dfa9e19d36"
+  },
+  {
+   "path": "poketool/personal/pms.narc",
+   "offset": 57774080,
+   "size": 1016,
+   "sha256": "6964c689912d1054"
+  },
+  {
+   "path": "poketool/personal/wotbl.narc",
+   "offset": 57775104,
+   "size": 19168,
+   "sha256": "a5cc293dd309f31c"
+  },
+  {
+   "path": "poketool/pl_pokezukan.narc",
+   "offset": 99078144,
+   "size": 1048,
+   "sha256": "19c9768945fb4608"
+  },
+  {
+   "path": "poketool/poke_edit/pl_poke_data.narc",
+   "offset": 99652608,
+   "size": 44028,
+   "sha256": "a9ea1cd0ba437685"
+  },
+  {
+   "path": "poketool/pokeanm/pl_pokeanm.narc",
+   "offset": 99094528,
+   "size": 13892,
+   "sha256": "25af2f6e78a5a8ea"
+  },
+  {
+   "path": "poketool/pokeanm/pokeanm.narc",
+   "offset": 99080192,
+   "size": 13892,
+   "sha256": "25af2f6e78a5a8ea"
+  },
+  {
+   "path": "poketool/pokefoot/pokefoot.narc",
+   "offset": 69991936,
+   "size": 58604,
+   "sha256": "181e87eb2bf79ba6"
+  },
+  {
+   "path": "poketool/pokegra/dp_height.narc",
+   "offset": 30310912,
+   "size": 23108,
+   "sha256": "b44492aa09f74d2c"
+  },
+  {
+   "path": "poketool/pokegra/dp_height_o.narc",
+   "offset": 30334464,
+   "size": 1684,
+   "sha256": "8dcef49c4815fdd7"
+  },
+  {
+   "path": "poketool/pokegra/height.narc",
+   "offset": 30336512,
+   "size": 23108,
+   "sha256": "8d4dafb68c361a2a"
+  },
+  {
+   "path": "poketool/pokegra/height_o.narc",
+   "offset": 30360064,
+   "size": 1924,
+   "sha256": "d6af79fe9dc45bf4"
+  },
+  {
+   "path": "poketool/pokegra/otherpoke.narc",
+   "offset": 30362112,
+   "size": 890604,
+   "sha256": "cab7af2e4fef1878"
+  },
+  {
+   "path": "poketool/pokegra/pl_otherpoke.narc",
+   "offset": 31252992,
+   "size": 1021324,
+   "sha256": "bcce60993746ec90"
+  },
+  {
+   "path": "poketool/pokegra/pl_pokegra.narc",
+   "offset": 32274432,
+   "size": 11778676,
+   "sha256": "d99ed134b21b03ae"
+  },
+  {
+   "path": "poketool/pokegra/poke_shadow.narc",
+   "offset": 44053504,
+   "size": 556,
+   "sha256": "037338ffc4f027a2"
+  },
+  {
+   "path": "poketool/pokegra/poke_shadow_ofx.narc",
+   "offset": 44054528,
+   "size": 556,
+   "sha256": "0e145a476fc5d986"
+  },
+  {
+   "path": "poketool/pokegra/poke_yofs.narc",
+   "offset": 44055552,
+   "size": 556,
+   "sha256": "a5984361e6e91673"
+  },
+  {
+   "path": "poketool/pokegra/pokegra.narc",
+   "offset": 44056576,
+   "size": 11778676,
+   "sha256": "71e0090fbcbdf63d"
+  },
+  {
+   "path": "poketool/pokezukan.narc",
+   "offset": 99076608,
+   "size": 1048,
+   "sha256": "a8072ca83eccb60c"
+  },
+  {
+   "path": "poketool/shinzukan.narc",
+   "offset": 99079680,
+   "size": 484,
+   "sha256": "41dd9ddb49807ce7"
+  },
+  {
+   "path": "poketool/trainer/trdata.narc",
+   "offset": 57794560,
+   "size": 26036,
+   "sha256": "15dda47cd7b3942a"
+  },
+  {
+   "path": "poketool/trainer/trpoke.narc",
+   "offset": 57820672,
+   "size": 28600,
+   "sha256": "a8af8c65eb4ae5ba"
+  },
+  {
+   "path": "poketool/trgra/trbgra.narc",
+   "offset": 55835648,
+   "size": 321628,
+   "sha256": "f79e0d8d661219e3"
+  },
+  {
+   "path": "poketool/trgra/trfgra.narc",
+   "offset": 56157696,
+   "size": 1529600,
+   "sha256": "1b9c3dfdcc3d7f4a"
+  },
+  {
+   "path": "poketool/trmsg/trtbl.narc",
+   "offset": 57849344,
+   "size": 10048,
+   "sha256": "0af2ad166a7358a2"
+  },
+  {
+   "path": "poketool/trmsg/trtblofs.narc",
+   "offset": 57859584,
+   "size": 1916,
+   "sha256": "19c3b90af496b397"
+  },
+  {
+   "path": "poketool/waza/pl_waza_tbl.narc",
+   "offset": 60265984,
+   "size": 11356,
+   "sha256": "3781f3e96960ce2a"
+  },
+  {
+   "path": "poketool/waza/waza_tbl.narc",
+   "offset": 60277760,
+   "size": 11356,
+   "sha256": "f9f6a37e8b817055"
+  },
+  {
+   "path": "resource/eng/batt_rec/batt_rec_gra.narc",
+   "offset": 101933056,
+   "size": 596912,
+   "sha256": "b0cadcf52a42551e"
+  },
+  {
+   "path": "resource/eng/frontier_graphic/frontier_bg.narc",
+   "offset": 102640640,
+   "size": 829908,
+   "sha256": "f30d3d5736fd1cf6"
+  },
+  {
+   "path": "resource/eng/frontier_graphic/frontier_obj.narc",
+   "offset": 103470592,
+   "size": 42912,
+   "sha256": "7d982379a61e9314"
+  },
+  {
+   "path": "resource/eng/pms_aikotoba/pms_aikotoba.narc",
+   "offset": 103676416,
+   "size": 1464,
+   "sha256": "c94aab467a5987fb"
+  },
+  {
+   "path": "resource/eng/scratch/scratch.narc",
+   "offset": 103513600,
+   "size": 162668,
+   "sha256": "a2de63542afcb061"
+  },
+  {
+   "path": "resource/eng/wifi_lobby_minigame/wlmngm_tool.narc",
+   "offset": 102530048,
+   "size": 110260,
+   "sha256": "69946829a1855b95"
+  },
+  {
+   "path": "resource/eng/zukan/zukan.narc",
+   "offset": 101858816,
+   "size": 73968,
+   "sha256": "57f412f4092c1863"
+  },
+  {
+   "path": "wazaeffect/effectclact/wecell.narc",
+   "offset": 60217344,
+   "size": 5372,
+   "sha256": "3dc3990ebb7ea6f8"
+  },
+  {
+   "path": "wazaeffect/effectclact/wecellanm.narc",
+   "offset": 60222976,
+   "size": 4688,
+   "sha256": "0e47c9b5f7c24199"
+  },
+  {
+   "path": "wazaeffect/effectclact/wechar.narc",
+   "offset": 60228096,
+   "size": 33076,
+   "sha256": "e6902f8f1eb1b63f"
+  },
+  {
+   "path": "wazaeffect/effectclact/wepltt.narc",
+   "offset": 60261376,
+   "size": 4480,
+   "sha256": "31f3222bb317406d"
+  },
+  {
+   "path": "wazaeffect/effectdata/ball_particle.narc",
+   "offset": 71838208,
+   "size": 302380,
+   "sha256": "3bbed988c1e80c65"
+  },
+  {
+   "path": "wazaeffect/effectdata/waza_particle.narc",
+   "offset": 72140800,
+   "size": 2419092,
+   "sha256": "07ac57247a417624"
+  },
+  {
+   "path": "wazaeffect/we.arc",
+   "offset": 59871232,
+   "size": 255820,
+   "sha256": "386307a1a8f51fb5"
+  },
+  {
+   "path": "wazaeffect/we_sub.narc",
+   "offset": 60127232,
+   "size": 12324,
+   "sha256": "5d73cdf4fc972737"
+  }
+ ]
+}

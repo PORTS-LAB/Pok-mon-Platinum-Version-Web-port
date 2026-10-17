@@ -8,6 +8,9 @@
  * not bit-exact DS timing.
  */
 #include "hal.h"
+#include <stddef.h>
+#include <stdint.h>
+
 #define u8  unsigned char
 #define u16 unsigned short
 #define u32 unsigned int
@@ -16,6 +19,18 @@
 #define BOOL int
 #define TRUE 1
 #define FALSE 0
+
+/* Forward-declare OSSystemWork without pulling the SDK's arena.h (which
+ * declares OS_AllocFromMainArenaLo as a static inline, conflicting with
+ * our implementation). */
+typedef struct { char _pad[0x400]; } OSSystemWork;
+OSSystemWork *plat_os_system_work(void);
+
+/* Override OS_GetSystemWork() macro from SDK to return our wasm global. */
+#ifdef OS_GetSystemWork
+#undef OS_GetSystemWork
+#endif
+#define OS_GetSystemWork() plat_os_system_work()
 
 /* VBlank state, polled by OS_WaitIrq and the main loop. */
 void OS_Init(void);
@@ -32,8 +47,19 @@ u16 OS_GetTickLo(void);
 /* VBlank callback plumbing used by GX_VBlankIntr / gSystem.vblankCallback. */
 void OSi_WaitVCount0(void);
 
-/* Heap stubs used by InitSystem (OS_AllocFromMainArenaLo). */
-void *OS_AllocFromMainArenaLo(u32 size, u32 align);
+/* OS_AllocFromMainArenaLo is a static inline in the SDK header; the
+ * implementation above is the wasm body. Rename to avoid the conflict. */
+#ifdef OS_AllocFromMainArenaLo
+#undef OS_AllocFromMainArenaLo
+#endif
+#define OS_AllocFromMainArenaLo(size, align) plat_os_alloc_main_arena_lo(size, align)
+
+#ifdef OS_AllocFromMainArenaHi
+#undef OS_AllocFromMainArenaHi
+#endif
+#define OS_AllocFromMainArenaHi(size, align) plat_os_alloc_main_arena_lo(size, align)
+
+void *plat_os_alloc_main_arena_lo(u32 size, u32 align);
 
 /* Main-loop entry: exported to JS. */
 void plat_os_run_frame(void);

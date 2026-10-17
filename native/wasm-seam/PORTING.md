@@ -46,14 +46,71 @@ sha1sum build/pokeplatinum.us.nds
 
 ## 4. wasm-seam (this dir)
 
-`compat.h` + `stubs.c` + `test_ascii.c` + `seam-check.sh`: compile a real
-decomp TU with emcc, run under node, diff against the `-m32` baseline.
-Proven IDENTICAL for `src/ascii_util.c`. Seam notes:
+Compile the decomp to WebAssembly without touching the decomp. Files here:
 
-- Real build `-D` set mirrored (SDK_ARM9/SDK_CW/SDK_TS/…): faithful, and
-  required (SDK headers branch on them).
-- `PLATFORM_INTRINSIC_FUNCTION_BIT_CLZ32` → `__builtin_clz`: uses the
-  SDK's own portability hook to skip the mwcc-only `asm { clz }` block.
-- SVC declarations come from the shim (SDK declares them only under
-  mwcc-flag combos); MMIO map included directly (`hw/ARM9/ioreg.h`) to
-  avoid mwcc-only syntax pulled in by the `SDK_ARM9` code paths.
+| File | Role |
+|---|---|
+| `compat.h` | SVC decls + ARM9 MMIO map + CLZ portability hook (`-include`, before SDK) |
+| `stubs.c` | `SVC_Halt`/`Div`/`DivRem`/`Sqrt` implementations, hardware-accurate |
+| `shim/extras.h` | shadows proprietary MSL `<extras.h>` (would poison wasm libc); provides `time_t` |
+| `shim/link_contest_records.h` | shadows upstream header that **reuses contest.h's include guard** |
+| `game_protos.h` | prototypes upstream declares implicitly (mwcc tolerates, clang does not) |
+| `gen_patches.py` | mechanical TU patches: drops `static` where upstream declares non-static |
+| `test_ascii.c` + `seam-check.sh` | known-answer test: emcc/wasm under node vs host `gcc -m32` |
+
+### Status (verified 2026-10-17)
+
+- `src/ascii_util.c`: wasm vs `-m32` output **IDENTICAL**.
+- Top-level `src/*.c`: **334 / 334** compile to wasm objects.
+- Whole tree (`src/**/*.c`, 1012 upstream-compiled files): **1012 / 1012**.
+  `-fdeclspec` + `gen_patches.py` close most of the remainder.
+
+### Compiler flags that matter
+
+The real build's `-D` set is mirrored (`SDK_ARM9 SDK_CW SDK_TS SDK_4M …`
+`GAME_VERSION=VERSION_PLATINUM GAME_LANGUAGE=LANGUAGE_ENGLISH NNS_FINALROM
+PM_KEEP_ASSERTS`) — required, since SDK headers branch on them. Plus:
+
+- `-D_NITRO` — puts GameSpy `nonport.h` on the same branch the DS build takes.
+- `-include include/pch/global_pch.h` — the decomp's implicit header (`ALIGN_4`,
+  `NELEMS`, `GF_ASSERT`, …). Without it 146 files fail.
+- `-fdeclspec` — `__declspec` appears in SDK headers.
+- `-Wno-int-conversion` — mwcc tolerates pointer/int sloppiness clang warns on.
+- `PLATFORM_INTRINSIC_FUNCTION_BIT_CLZ32` → `__builtin_clz`: uses the SDK's own
+  portability hook to bypass its mwcc-only `asm { clz }`.
+
+### Traps found (each cost a round-trip; documented so they cost nothing next time)
+
+1. `link_contest_records.h` and `contest.h` share guard `POKEPLATINUM_CONTEST_H`
+   → including both silently empties one. Fixed by shadowing the former.
+2. `poffin.h` nests an anonymous struct inside an anonymous union (mwcc
+   extension) → clang exposes only the union. Fixed via a byte-identical
+   named view (`POFFIN_FIELDS`/`POFFIN_OBJ`).
+3. `overlay_manager.c` assigns a struct containing a `const` member →
+   clang rejects; memcpy is the exact equivalent.
+4. `src/unk_02095CD4.c` is an **orphan**: present in `src/` but absent from
+   `build.ninja`, i.e. not compiled upstream. Excluded, not patched.
+5. Struct-packing asserts in the SDK assume 32-bit pointers → x86-64 host
+   baseline fails them, wasm32 does not. wasm is the faithful target; use
+   `gcc -m32` for host comparisons.
+6. SVC declarations come from the shim (the SDK declares them only under
+   mwcc-flag combos); the MMIO map is included directly (`hw/ARM9/ioreg.h`)
+   to avoid mwcc-only syntax pulled in by the `SDK_ARM9` code paths.
+
+## 5. What is left for a *playable* native port
+
+Compiling is solved. The remaining work is implementing, behind `hal.h`,
+what the objects still reference — measured with `llvm-nm --undefined-only`
+over the compiled set:
+
+| Layer | Scope |
+|---|---|
+| NitroSDK OS/timing/DMA/IRQ | timers, vblank, interrupts, DMA |
+| GX 2D (backgrounds, sprites, windows, affine) | the 2D renderer |
+| GX 3D (geometry engine, rasterizer) | Distortion World, battle 3D |
+| FS + overlay loader | NARC reads, overlay swap |
+| GXSND | sound streams, banks, mic |
+| Wifi/DWC | stub (no online play in a web port) |
+
+Each is a HAL implementation behind the same interface `native/include/hal.h`
+already defines, driven from the decomp's own entry points rather than emulated.
